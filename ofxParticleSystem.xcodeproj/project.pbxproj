@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B4C91EB10EA6A9E004AE2EB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4C917F10EA65FF004AE2EB /* openFrameworksDebug.a */; };
 		D8E413AC11F24FB6007E7089 /* ofxParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8E413AB11F24FB6007E7089 /* ofxParticleSystem.cpp */; };
 		D8E413AF11F24FBF007E7089 /* ofxParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8E413AE11F24FBF007E7089 /* ofxParticle.cpp */; };
 		D8E413DC11F250F3007E7089 /* ofxQuaternion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8E413CF11F250F3007E7089 /* ofxQuaternion.cpp */; };
@@ -24,8 +23,6 @@
 		E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9770E8CC7DD009D7055 /* CoreServices.framework */; };
 		E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9790E8CC7DD009D7055 /* OpenGL.framework */; };
 		E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */; };
-		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
-		E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */; };
 		E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424410CC5A17004149E2 /* AppKit.framework */; };
 		E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424510CC5A17004149E2 /* Cocoa.framework */; };
 		E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424610CC5A17004149E2 /* IOKit.framework */; };
@@ -40,23 +37,6 @@
 		E4C242CD10CC650E004149E2 /* libfmodex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C242CC10CC650E004149E2 /* libfmodex.dylib */; };
 		E4C246DA10CCAE22004149E2 /* freeimage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C246D910CCAE22004149E2 /* freeimage.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8B4C917E10EA65FF004AE2EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8B4C917A10EA65FF004AE2EB /* openFrameworksLib.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
-			remoteInfo = openFrameworks;
-		};
-		8B4C91C210EA67A7004AE2EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8B4C917A10EA65FF004AE2EB /* openFrameworksLib.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
-			remoteInfo = openFrameworks;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
@@ -73,7 +53,6 @@
 
 /* Begin PBXFileReference section */
 		8B4C905110EA569F004AE2EB /* ofxParticleSystem-debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ofxParticleSystem-debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B4C917A10EA65FF004AE2EB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = "<group>"; };
 		D8E413AA11F24FB6007E7089 /* ofxParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxParticleSystem.h; path = src/ofxParticleSystem.h; sourceTree = "<group>"; };
 		D8E413AB11F24FB6007E7089 /* ofxParticleSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxParticleSystem.cpp; path = src/ofxParticleSystem.cpp; sourceTree = "<group>"; };
 		D8E413AD11F24FBF007E7089 /* ofxParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxParticle.h; path = src/ofxParticle.h; sourceTree = "<group>"; };
@@ -112,9 +91,6 @@
 		E45BE9770E8CC7DD009D7055 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
 		E45BE9790E8CC7DD009D7055 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
-		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = testApp.cpp; path = src/testApp.cpp; sourceTree = SOURCE_ROOT; };
-		E4B69E1F0A3A1BDC003C02F2 /* testApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = testApp.h; path = src/testApp.h; sourceTree = SOURCE_ROOT; };
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
 		E4C2424410CC5A17004149E2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		E4C2424510CC5A17004149E2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -135,7 +111,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B4C91EB10EA6A9E004AE2EB /* openFrameworksDebug.a in Frameworks */,
 				E45BE0AA0E8CC67C009D7055 /* GLee.a in Frameworks */,
 				E45BE2E40E8CC69C009D7055 /* rtAudio.a in Frameworks */,
 				E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */,
@@ -165,29 +140,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B0A01FB10E95F5200347BA0 /* openFrameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8B4C917A10EA65FF004AE2EB /* openFrameworksLib.xcodeproj */,
-			);
-			name = openFrameworks;
-			path = ../../../libs/openFrameworks;
-			sourceTree = SOURCE_ROOT;
-		};
 		8B4C909610EA6276004AE2EB /* addons */ = {
 			isa = PBXGroup;
 			children = (
 				D8E413CD11F250F3007E7089 /* ofxVectorMath */,
 			);
 			name = addons;
-			sourceTree = "<group>";
-		};
-		8B4C917B10EA65FF004AE2EB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8B4C917F10EA65FF004AE2EB /* openFrameworksDebug.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D8E413CD11F250F3007E7089 /* ofxVectorMath */ = {
@@ -219,7 +177,7 @@
 			path = src;
 			sourceTree = "<group>";
 		};
-		D8E4143411F256F6007E7089 /* ofxParticleSystem */ = {
+		D8E4143411F256F6007E7089 /* src */ = {
 			isa = PBXGroup;
 			children = (
 				D8E413AA11F24FB6007E7089 /* ofxParticleSystem.h */,
@@ -227,7 +185,7 @@
 				D8E413AD11F24FBF007E7089 /* ofxParticle.h */,
 				D8E413AE11F24FBF007E7089 /* ofxParticle.cpp */,
 			);
-			name = ofxParticleSystem;
+			name = src;
 			sourceTree = "<group>";
 		};
 		E45BE0360E8CC5DE009D7055 /* libs */ = {
@@ -410,25 +368,13 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
-				D8E4143411F256F6007E7089 /* ofxParticleSystem */,
-				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				D8E4143411F256F6007E7089 /* src */,
 				8B4C909610EA6276004AE2EB /* addons */,
-				8B0A01FB10E95F5200347BA0 /* openFrameworks */,
 				E45BE0360E8CC5DE009D7055 /* libs */,
 				8B4C905110EA569F004AE2EB /* ofxParticleSystem-debug.app */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 			);
 			sourceTree = "<group>";
-		};
-		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
-				E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */,
-				E4B69E1F0A3A1BDC003C02F2 /* testApp.h */,
-			);
-			path = src;
-			sourceTree = SOURCE_ROOT;
 		};
 		E4C2425B10CC5A78004149E2 /* glut */ = {
 			isa = PBXGroup;
@@ -512,7 +458,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				8B4C91C310EA67A7004AE2EB /* PBXTargetDependency */,
 			);
 			name = "Desktop Application";
 			productName = myOFApp;
@@ -530,28 +475,12 @@
 			mainGroup = E4B69B4A0A3A1720003C02F2;
 			productRefGroup = E4B69B4A0A3A1720003C02F2;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 8B4C917B10EA65FF004AE2EB /* Products */;
-					ProjectRef = 8B4C917A10EA65FF004AE2EB /* openFrameworksLib.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				E4B69B5A0A3A1756003C02F2 /* Desktop Application */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		8B4C917F10EA65FF004AE2EB /* openFrameworksDebug.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = openFrameworksDebug.a;
-			remoteRef = 8B4C917E10EA65FF004AE2EB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
@@ -574,8 +503,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
-				E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */,
 				D8E413AC11F24FB6007E7089 /* ofxParticleSystem.cpp in Sources */,
 				D8E413AF11F24FBF007E7089 /* ofxParticle.cpp in Sources */,
 				D8E413DC11F250F3007E7089 /* ofxQuaternion.cpp in Sources */,
@@ -585,14 +512,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8B4C91C310EA67A7004AE2EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = openFrameworks;
-			targetProxy = 8B4C91C210EA67A7004AE2EB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E4B27CA010CBF8A600536013 /* ReleaseUniversal */ = {
