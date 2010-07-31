@@ -1,5 +1,5 @@
 Simple particle system for oF. Right now it's very inflexible in terms of options, so best way to use it the way you want is to subclass it.
 
 ### Dependencies
-openFrameworks 0061 FAT
-ofxVectorMath
+* openFrameworks 0061 FAT
+* ofxVectorMath
