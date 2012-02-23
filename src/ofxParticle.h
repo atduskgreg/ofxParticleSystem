@@ -9,7 +9,6 @@
 
 #pragma once
 #include "ofMain.h"
-#include "ofxVectorMath.h"
 
 class ofxParticle {
 public:
@@ -19,14 +18,14 @@ public:
 	
 	// methods
 	void update();
-	void addForce(ofxVec2f force);
+	void addForce(ofVec2f force);
 	void draw();
 	void checkEdges();
 	
 	// properties
-	ofxVec2f loc;
-	ofxVec2f vel;
-	ofxVec2f accel;
+	ofVec2f loc;
+	ofVec2f vel;
+	ofVec2f accel;
 	
 	float mass;
 	float topSpeed;

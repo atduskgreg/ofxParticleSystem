@@ -10,9 +10,9 @@
 #include "ofxParticle.h"
 
 ofxParticle::ofxParticle() {
-	loc = ofxVec2f(ofRandom( 0, ofGetWidth()), ofRandom(0, ofGetHeight()));
-	vel = ofxVec2f(0, 0 );
-	accel = ofxVec2f(0, 0 );
+	loc = ofVec2f(ofRandom( 0, ofGetWidth()), ofRandom(0, ofGetHeight()));
+	vel = ofVec2f(0, 0 );
+	accel = ofVec2f(0, 0 );
 	mass = 1.0;
 	bounce = 1.0;
 	topSpeed = 20;
@@ -25,10 +25,10 @@ void ofxParticle::update() {
 	vel += accel;
 	vel.limit(topSpeed);
 	loc += vel;
-	accel = ofxVec2f(0, 0 );
+	accel = ofVec2f(0, 0 );
 }
 
-void ofxParticle::addForce( ofxVec2f force) {
+void ofxParticle::addForce( ofVec2f force) {
 	force = force / mass;
 	accel += force;
 }

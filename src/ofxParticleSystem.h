@@ -8,7 +8,6 @@
  */
 #pragma once
 #include "ofxParticle.h"
-#include "ofxVectorMath.h"
 
 class ofxParticleSystem {
 public:
@@ -18,7 +17,7 @@ public:
 	
 	// methods
 	void update();
-	void addForce(ofxVec2f force);
+	void addForce(ofVec2f force);
 	void draw();
 	
 	void addParticles(int amount);

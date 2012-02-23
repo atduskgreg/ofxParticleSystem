@@ -22,7 +22,7 @@ void ofxParticleSystem::update() {
 	}
 }
 
-void ofxParticleSystem::addForce(ofxVec2f force) {
+void ofxParticleSystem::addForce(ofVec2f force) {
 	for ( list<ofxParticle>::iterator p = particles.begin(); p != particles.end(); ++p) {
 		p->addForce(force);
 	}
